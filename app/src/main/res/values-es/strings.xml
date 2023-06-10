@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BarcodeScannerApp</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="register_product">Registrar Producto</string>
+    <string name="list_product">Lista de Productos</string>
+    <string name="detail_product">Detalle de Producto</string>
+    <string name="update_product">Actualizar Producto</string>
+    <string name="name">Nombre</string>
+    <string name="product">Product</string>
+    <string name="client_name">Nombre de Cliente</string>
+    <string name="product_name">Producto: %s</string>
+    <string name="product_description">Descripcion: %s</string>
+    <string name="product_code">Codigo: %s</string>
+    <string name="product_stock">Stock: %s</string>
+    <string name="description">Descripcion</string>
+    <string name="code">Codigo</string>
+    <string name="quantity">Cantidad</string>
+    <string name="barcode">Codigo de Barras</string>
+    <string name="scan_barcode">Escanear</string>
+    <string name="cart_menu">Nota de Venta</string>
+    <string name="register">Registrar</string>
+    <string name="msg_val_name">El Nombre es requerido</string>
+    <string name="msg_val_code">El Codigo es requerido</string>
+    <string name="msg_val_barcode">El Barcode es requerido</string>
+    <string name="msg_saving_data">Guardando los datos...</string>
+    <string name="msg_loading_data">Cargando datos...</string>
+    <string name="msg_no_products">Aun no hay productos registrados...</string>
+</resources>

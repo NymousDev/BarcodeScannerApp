@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="productItem"
+            type="com.nymousdevapps.barcodescannerapp.data.models.Product" />
+    </data>
+
+    <LinearLayout
+        android:id="@+id/ll_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/layout_bg"
+        android:backgroundTint="@color/background_color"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/background_color"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@{@string/product_name(productItem.name)}"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:gravity="start"
+                android:maxLines="2"
+                tools:text="Nombre Producto" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@{@string/product_code(productItem.code)}"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                tools:text="Codigo Producto" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@{@string/product_description(productItem.description)}"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:maxLines="2"
+                tools:text="Descripcion del Producto" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@{@string/product_stock(productItem.quantity)}"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                tools:text="Stock del Producto" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</layout>
